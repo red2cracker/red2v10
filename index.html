@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <title>Red2.net</title>
+  </head>
+  <body>
+
+<!-- navbar-expand-md 로 변경해야
+태블릿에서 메뉴가 나옴 -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark d-print-none">
+<?//php echo G5_URL ?>
+  <a class="navbar-brand" href="index.html" title="Red2.net 홈">
+    <!-- <img src="img/red2mamm.svg" width="85" height="70" alt=""> -->
+	<!-- <img src="<?php echo G5_THEME_IMG_URL; ?>/red2mamm.svg" width="65" height="65" alt="로고"> -->
+    <span>Red2.</span>net
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          메인
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=news">뉴스</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=notice">공지사항</a>
+          <!-- <a class="dropdown-item" href="#">게임 리그</a> -->
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://red2.net/dokuwiki/doku.php">위키</a>
+      </li>
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          게임
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">타이베리안돈</a>
+          <a class="dropdown-item" href="#">타이베리안선</a>
+          <a class="dropdown-item" href="#">타이베리움워</a>
+          <a class="dropdown-item" href="#">C&amp;C4</a>
+          <a class="dropdown-item" href="#">레드얼럿</a>
+          <a class="dropdown-item" href="#">레드얼럿2</a>
+          <a class="dropdown-item" href="#">레드얼럿3</a>
+          <a class="dropdown-item" href="#">제너럴</a>
+          <a class="dropdown-item" href="#">레니게이드</a>
+          <a class="dropdown-item" href="#">솔서바이버</a>
+        </div>
+      </li> -->
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          컨텐츠
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">모드 강좌</a>
+          <a class="dropdown-item" href="#">실험실</a>
+          <a class="dropdown-item" href="#">C&amp;C 백과사전</a>
+          <a class="dropdown-item" href="#">레드넷 용어사전</a>
+        </div>
+      </li> -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          커뮤니티
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=free">자유 게시판</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=cnc">C&amp;C 게시판</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=qna">Q&amp;A 게시판</a>
+		  <!-- <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=tip">팁게시판</a> -->
+		  <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=mod_tutorial">모드 강좌</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=comic">팬픽</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=suggest">건의사항</a>
+          <a class="dropdown-item" href="http://red2.net/comm2/link.html">링크</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle nav-link-last" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          자료실
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=patch">패치</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=mod">모드</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=mod_tool">모드 툴</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=map">맵</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=replay">리플레이</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=ost">OST</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=game">게임</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=other">기타</a>
+        </div>
+      </li>
+      <!--
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          사이트
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">건의사항</a>
+          <a class="dropdown-item" href="#">운영자 게시판</a>
+          <a class="dropdown-item" href="#">휴지통</a>
+          <a class="dropdown-item" href="#">링크</a>
+        </div>
+      </li>
+      -->
+    </ul>
+
+<!--
+<div class="outlogin-m">
+  <a href="#">로그인</a> / <a href="#">회원가입</a>
+</div>
+-->
+
+<?php //echo outlogin('theme/basicm'); ?>
+
+<!-- Google 검색 -->
+<form action="http://www.google.co.kr" id="cse-search-box" class="" role="search">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-4096343605930509:6706445990">
+    <input type="hidden" name="ie" value="UTF-8">
+    <input type="text" name="q" id="cse-keyword" title="검색어 입력">
+    <input type="submit" name="sa" id="cse-search-button" value="&#xac80;&#xc0c9;">
+  </div>
+</form>
+
+<script type="text/javascript" src="http://www.google.co.kr/coop/cse/brand?form=cse-search-box&amp;lang=ko"></script>
+
+<!--
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">검색</button>
+    </form>
+-->
+  </div>
+</nav>
+
+<!-- 참고: http://ganzi-tilong.tistory.com/17 -->
+<!-- 참고: https://getbootstrap.com/docs/4.0/layout/grid/#order-classes -->
+<div class="container div-border">
+  <div class="row row-remove-bug">
+    <section class="col-md-9"><!-- col-md-9 order-2 -->
+      <!-- col-md-9 본문 -->
+
+<p>내용1</p>
+<hr>
+<p>내용2</p>
+<p>내용3</p>
+<p>내용4</p>
+<p>내용5</p>
+
+<!-- SNS 링크(목록대신 문단과 | 사용) -->
+<!-- https://www.youtube.com/yt/about/brand-resources/#logos-icons-colors -->
+<ul class="sns-link">
+  <li class="sns_logo_twitter"><a href="https://twitter.com/red2cracker" title="트위터">트위터</a></li>
+  <li class="sns_logo_facebook"><a href="https://www.facebook.com/red2network/" title="페이스북">페이스북</a></li>
+  <li class="sns_logo_blog"><a href="http://blog.naver.com/scabbard2" title="블로그">블로그</a></li>
+  <li class="sns_logo_youtube"><a href="http://www.youtube.com/red2cracker" title="유튜브">유튜브</a></li>
+  <li class="sns_logo_discord"><a href="https://discord.gg/F5ZcCwC" title="디스코드">디스코드</a></li>
+  <li class="sns_logo_moddb"><a href="http://www.moddb.com/mods/korean-war-2" title="모드DB">모드DB</a></li>
+</ul>
+	  
+<!-- 최신글 끝 -->
+
+    </section>
+
+    <aside class="col-md-3"><!-- col-md-3 order-1 -->
+      <!-- col-md-3 사이드바 -->
+
+<?php //echo outlogin('theme/basic2'); // 외부 로그인, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
+
+      <nav class="nav-local d-print-none">
+        <h2>메인</h2>
+
+        <ul>
+          <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=news">뉴스</a></li>
+          <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=notice">공지사항</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </div>
+</div>
+
+<!-- 구글 애드센스(광고) 하단 -->
+
+<footer class="footer d-print-none">
+  <ul class="footer-link">
+    <li><a href="http://red2.net/other2/about_us.html">사이트 소개</a></li>
+    <li><a href="http://red2.net/other2/rules.html">회칙</a></li>
+    <li><a href="http://red2.net/other2/donation.html">후원하기</a></li>
+  </ul>
+  
+  <p>이메일: red2cracker@gmail.com</p>
+
+  <p class="footer-copy">Copyright 2002-2019, Red2.net.</p>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script>
+/* 구글 검색 입력창 스타일 제거
+https://sir.kr/qa/275014 */
+/*$('#cse-keyword').removeAttr("style");*/
+</script>
+	
+	</body>
+</html>
